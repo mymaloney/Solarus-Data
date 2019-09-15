@@ -1,0 +1,44 @@
+animation{
+  name = "bomb",
+  src_image = "items.png",
+  directions = {
+    { x = 32, y = 24, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "gem",
+  src_image = "items.png",
+  frame_delay = 150,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 48, y = 24, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 5 },
+    { x = 48, y = 24, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 5 },
+    { x = 48, y = 24, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 5 },
+    { x = 48, y = 24, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 5 },
+    { x = 48, y = 24, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 5 },
+    { x = 48, y = 24, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 5 },
+  },
+}
+animation{
+  name = "heart",
+  src_image = "items/heart.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
+  },
+}
+animation{
+  name = "sword",
+  src_image = "items.png",
+  directions = {
+    { x = 64, y = 40, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "tunic",
+  src_image = "items.png",
+  directions = {
+    { x = 96, y = 40, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 96, y = 40, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 96, y = 40, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}

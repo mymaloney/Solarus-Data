@@ -1,0 +1,16 @@
+quest{
+  solarus_version = "1.6",
+  write_dir = "c61d3f84-9a56-4bf3-b8c1-e1f63f941abb",
+  title = "Solarus Classic",
+  short_description = "The Classic Pack",
+  long_description = [[
+]],
+  author = "",
+  quest_version = "",
+  release_date = "",
+  website = "",
+  normal_quest_size = "160x144",
+  min_quest_size = "160x144",
+  max_quest_size = "160x144",
+}
+

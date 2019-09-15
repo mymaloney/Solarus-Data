@@ -1,0 +1,9 @@
+animation{
+  name = "default",
+  src_image = "menus/splash.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 160, frame_height = 144, origin_x = 80, origin_y = 141, num_frames = 42, num_columns = 6 },
+  },
+}
