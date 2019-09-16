@@ -47,7 +47,7 @@ local function initialize_dialog_box_features(game)
     box_dst_position = nil,      -- Destination coordinates of the dialog box.
     question_dst_position = nil, -- Destination coordinates of the question icon.
     icon_dst_position = nil,     -- Destination coordinates of the icon.
-    text_color = { 115, 59, 22 } -- Text color.
+    text_color = { 255, 255, 255 } -- Text color.
 
   }
 
@@ -59,8 +59,8 @@ local function initialize_dialog_box_features(game)
     fast = 20  -- Default.
   }
   local letter_sound_delay = 100
-  local box_width = 220
-  local box_height = 60
+  local box_width = 160
+  local box_height = 48
 
   -- Initialize dialog box data.
   dialog_box.font, dialog_box.font_size = language_manager:get_dialog_font()
@@ -193,8 +193,8 @@ local function initialize_dialog_box_features(game)
 
     -- Set the coordinates of graphic objects.
     local screen_width, screen_height = sol.video.get_quest_size()
-    local x = screen_width / 2 - 110
-    local y = top and 16 or (screen_height - 68)
+    local x = screen_width / 2 - 80
+    local y = top and 16 or (screen_height - 48)
 
     if self.style == "empty" then
       y = y + (top and -24 or 24)

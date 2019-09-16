@@ -2,7 +2,7 @@ properties{
   x = 0,
   y = 0,
   width = 160,
-  height = 248,
+  height = 256,
   min_layer = 0,
   max_layer = 2,
   tileset = "overworld",
@@ -11,8 +11,71 @@ properties{
 
 tile{
   layer = 0,
+  x = 32,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "1",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 80,
+  width = 32,
+  height = 8,
+  pattern = "51_6",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "1",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "1",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "51_8",
+}
+
+tile{
+  layer = 0,
   x = 112,
-  y = 0,
+  y = 8,
   width = 48,
   height = 48,
   pattern = "1",
@@ -21,7 +84,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 0,
+  y = 8,
   width = 64,
   height = 112,
   pattern = "1",
@@ -30,7 +93,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = -8,
+  y = 0,
   width = 64,
   height = 16,
   pattern = "22",
@@ -39,7 +102,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = -8,
+  y = 0,
   width = 16,
   height = 16,
   pattern = "22",
@@ -48,7 +111,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = -8,
+  y = 0,
   width = 16,
   height = 16,
   pattern = "22",
@@ -57,7 +120,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 0,
+  y = 8,
   width = 16,
   height = 16,
   pattern = "22",
@@ -66,7 +129,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 0,
+  y = 8,
   width = 16,
   height = 16,
   pattern = "22",
@@ -75,7 +138,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 88,
+  y = 96,
   width = 16,
   height = 8,
   pattern = "30",
@@ -84,7 +147,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "11",
@@ -94,7 +157,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_11",
@@ -104,7 +167,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_14",
@@ -114,7 +177,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 80,
+  y = 88,
   width = 16,
   height = 8,
   pattern = "30",
@@ -124,20 +187,11 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "11",
   tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 16,
-  width = 16,
-  height = 16,
-  pattern = "22",
 }
 
 tile{
@@ -205,17 +259,17 @@ tile{
 
 tile{
   layer = 0,
-  x = 32,
-  y = 112,
-  width = 8,
-  height = 8,
-  pattern = "51",
+  x = 144,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "22",
 }
 
 tile{
   layer = 0,
   x = 96,
-  y = 72,
+  y = 80,
   width = 8,
   height = 24,
   pattern = "36_2",
@@ -224,25 +278,16 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 120,
+  y = 128,
   width = 160,
-  height = 128,
+  height = 112,
   pattern = "48_2",
 }
 
 tile{
   layer = 0,
-  x = 0,
-  y = 232,
-  width = 160,
-  height = 32,
-  pattern = "50_2",
-}
-
-tile{
-  layer = 0,
   x = 72,
-  y = 128,
+  y = 136,
   width = 24,
   height = 8,
   pattern = "3_2",
@@ -251,7 +296,7 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = 136,
+  y = 144,
   width = 24,
   height = 8,
   pattern = "3",
@@ -260,7 +305,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 136,
+  y = 144,
   width = 8,
   height = 8,
   pattern = "2",
@@ -269,7 +314,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 144,
+  y = 152,
   width = 8,
   height = 8,
   pattern = "2_2",
@@ -278,7 +323,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 128,
+  y = 136,
   width = 24,
   height = 8,
   pattern = "3_2",
@@ -287,7 +332,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 136,
+  y = 144,
   width = 24,
   height = 8,
   pattern = "3",
@@ -296,7 +341,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 128,
+  y = 136,
   width = 24,
   height = 8,
   pattern = "3_2",
@@ -305,7 +350,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 136,
+  y = 144,
   width = 24,
   height = 8,
   pattern = "3",
@@ -314,7 +359,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 144,
+  y = 152,
   width = 8,
   height = 8,
   pattern = "2_5",
@@ -323,7 +368,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 136,
+  y = 144,
   width = 8,
   height = 8,
   pattern = "2_3",
@@ -332,7 +377,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 136,
+  y = 144,
   width = 8,
   height = 8,
   pattern = "2_4",
@@ -341,7 +386,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 144,
+  y = 152,
   width = 8,
   height = 8,
   pattern = "2_6",
@@ -350,7 +395,7 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = 144,
+  y = 152,
   width = 24,
   height = 8,
   pattern = "3_2",
@@ -359,7 +404,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 144,
+  y = 152,
   width = 24,
   height = 8,
   pattern = "3_2",
@@ -368,7 +413,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 144,
+  y = 152,
   width = 24,
   height = 8,
   pattern = "3_2",
@@ -377,7 +422,7 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = 120,
+  y = 128,
   width = 24,
   height = 8,
   pattern = "3",
@@ -386,7 +431,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 120,
+  y = 128,
   width = 24,
   height = 8,
   pattern = "3",
@@ -395,7 +440,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 120,
+  y = 128,
   width = 24,
   height = 8,
   pattern = "3",
@@ -404,7 +449,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 128,
+  y = 136,
   width = 8,
   height = 8,
   pattern = "2",
@@ -413,10 +458,28 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "2_3",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "2_4",
 }
 
 tile{
@@ -439,26 +502,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 152,
-  y = 120,
-  width = 8,
-  height = 8,
-  pattern = "2_3",
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 120,
-  width = 8,
-  height = 8,
-  pattern = "2_4",
-}
-
-tile{
-  layer = 0,
   x = 64,
-  y = 152,
+  y = 160,
   width = 16,
   height = 16,
   pattern = "1",
@@ -467,7 +512,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 152,
+  y = 160,
   width = 16,
   height = 16,
   pattern = "48",
@@ -476,7 +521,7 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = 120,
+  y = 128,
   width = 24,
   height = 8,
   pattern = "47",
@@ -485,7 +530,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 120,
+  y = 128,
   width = 16,
   height = 8,
   pattern = "12",
@@ -494,7 +539,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "17",
@@ -503,7 +548,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 120,
+  y = 128,
   width = 24,
   height = 8,
   pattern = "47",
@@ -512,7 +557,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 120,
+  y = 128,
   width = 16,
   height = 8,
   pattern = "12",
@@ -521,7 +566,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "17",
@@ -530,7 +575,7 @@ tile{
 tile{
   layer = 0,
   x = 104,
-  y = 136,
+  y = 144,
   width = 16,
   height = 16,
   pattern = "4_2",
@@ -539,7 +584,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 192,
+  y = 200,
   width = 16,
   height = 16,
   pattern = "48",
@@ -548,7 +593,7 @@ tile{
 tile{
   layer = 0,
   x = 24,
-  y = 160,
+  y = 168,
   width = 16,
   height = 16,
   pattern = "48_4",
@@ -557,7 +602,7 @@ tile{
 tile{
   layer = 0,
   x = 16,
-  y = 200,
+  y = 208,
   width = 16,
   height = 16,
   pattern = "48_3",
@@ -575,6 +620,24 @@ tile{
 tile{
   layer = 0,
   x = 104,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "48_2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "48_2",
+}
+
+tile{
+  layer = 0,
+  x = 136,
   y = 168,
   width = 16,
   height = 16,
@@ -583,26 +646,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 112,
-  y = 184,
-  width = 16,
-  height = 16,
-  pattern = "48_2",
-}
-
-tile{
-  layer = 0,
-  x = 136,
-  y = 160,
-  width = 16,
-  height = 16,
-  pattern = "48_2",
-}
-
-tile{
-  layer = 0,
   x = 40,
-  y = 160,
+  y = 168,
   width = 16,
   height = 16,
   pattern = "48_2",
@@ -611,7 +656,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 160,
+  y = 168,
   width = 16,
   height = 16,
   pattern = "48_2",
@@ -620,7 +665,7 @@ tile{
 tile{
   layer = 0,
   x = 8,
-  y = 200,
+  y = 208,
   width = 16,
   height = 16,
   pattern = "48_2",
@@ -629,7 +674,7 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = 176,
+  y = 184,
   width = 16,
   height = 16,
   pattern = "48_2",
@@ -638,7 +683,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 192,
+  y = 200,
   width = 16,
   height = 16,
   pattern = "48_2",
@@ -656,16 +701,7 @@ tile{
 tile{
   layer = 0,
   x = 88,
-  y = 200,
-  width = 16,
-  height = 16,
-  pattern = "48",
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 152,
+  y = 208,
   width = 16,
   height = 16,
   pattern = "48",
@@ -677,13 +713,13 @@ tile{
   y = 160,
   width = 16,
   height = 16,
-  pattern = "23",
+  pattern = "48",
 }
 
 tile{
   layer = 0,
   x = 104,
-  y = 152,
+  y = 160,
   width = 16,
   height = 32,
   pattern = "21",
@@ -692,7 +728,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 152,
+  y = 160,
   width = 8,
   height = 32,
   pattern = "36_6",
@@ -701,7 +737,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 176,
+  y = 184,
   width = 8,
   height = 8,
   pattern = "36_5",
@@ -710,7 +746,7 @@ tile{
 tile{
   layer = 0,
   x = 104,
-  y = 176,
+  y = 184,
   width = 8,
   height = 8,
   pattern = "36_3",
@@ -719,7 +755,7 @@ tile{
 tile{
   layer = 0,
   x = 104,
-  y = 152,
+  y = 160,
   width = 8,
   height = 24,
   pattern = "36_2",
@@ -727,17 +763,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 8,
-  y = 240,
-  width = 32,
-  height = 24,
-  pattern = "33",
-}
-
-tile{
-  layer = 0,
   x = 128,
-  y = 192,
+  y = 176,
   width = 32,
   height = 24,
   pattern = "32",
@@ -746,7 +773,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "26_9",
@@ -755,7 +782,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 136,
+  y = 144,
   width = 8,
   height = 8,
   pattern = "26_4",
@@ -764,7 +791,7 @@ tile{
 tile{
   layer = 0,
   x = 48,
-  y = 128,
+  y = 136,
   width = 8,
   height = 16,
   pattern = "25",
@@ -773,7 +800,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 128,
+  y = 136,
   width = 8,
   height = 8,
   pattern = "26_3",
@@ -782,7 +809,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 144,
+  y = 152,
   width = 16,
   height = 8,
   pattern = "24",
@@ -791,7 +818,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 128,
+  y = 136,
   width = 8,
   height = 8,
   pattern = "26_2",
@@ -800,7 +827,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "26_10",
@@ -809,7 +836,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 136,
+  y = 144,
   width = 8,
   height = 8,
   pattern = "26",
@@ -818,7 +845,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "26_13",
@@ -827,7 +854,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 136,
+  y = 144,
   width = 8,
   height = 8,
   pattern = "26_6",
@@ -836,7 +863,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 136,
+  y = 144,
   width = 8,
   height = 8,
   pattern = "26_5",
@@ -845,7 +872,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 144,
+  y = 152,
   width = 16,
   height = 8,
   pattern = "24_2",
@@ -854,7 +881,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "26_15",
@@ -863,7 +890,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 128,
+  y = 136,
   width = 8,
   height = 8,
   pattern = "26_7",
@@ -872,7 +899,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 128,
+  y = 136,
   width = 8,
   height = 8,
   pattern = "26_8",
@@ -881,7 +908,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 200,
+  y = 184,
   width = 8,
   height = 16,
   pattern = "29",
@@ -890,7 +917,7 @@ tile{
 tile{
   layer = 0,
   x = 128,
-  y = 200,
+  y = 184,
   width = 8,
   height = 8,
   pattern = "26_12",
@@ -899,7 +926,7 @@ tile{
 tile{
   layer = 0,
   x = 128,
-  y = 208,
+  y = 192,
   width = 8,
   height = 8,
   pattern = "26_10",
@@ -908,7 +935,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = 208,
+  y = 192,
   width = 8,
   height = 8,
   pattern = "26_4",
@@ -917,7 +944,7 @@ tile{
 tile{
   layer = 0,
   x = 128,
-  y = 216,
+  y = 200,
   width = 16,
   height = 8,
   pattern = "24",
@@ -926,7 +953,7 @@ tile{
 tile{
   layer = 0,
   x = 128,
-  y = 208,
+  y = 192,
   width = 8,
   height = 8,
   pattern = "26",
@@ -935,7 +962,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 208,
+  y = 192,
   width = 8,
   height = 8,
   pattern = "26_4",
@@ -944,7 +971,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 216,
+  y = 200,
   width = 16,
   height = 8,
   pattern = "24",
@@ -953,7 +980,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 208,
+  y = 192,
   width = 8,
   height = 8,
   pattern = "26",
@@ -962,7 +989,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 208,
+  y = 192,
   width = 8,
   height = 8,
   pattern = "26_5",
@@ -971,7 +998,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 200,
+  y = 184,
   width = 8,
   height = 8,
   pattern = "26_8",
@@ -980,7 +1007,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 216,
+  y = 208,
   width = 160,
   height = 16,
   pattern = "50",
@@ -989,7 +1016,7 @@ tile{
 tile{
   layer = 0,
   x = 40,
-  y = 144,
+  y = 152,
   width = 16,
   height = 16,
   pattern = "23",
@@ -998,7 +1025,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 136,
+  y = 144,
   width = 16,
   height = 16,
   pattern = "19_4",
@@ -1007,7 +1034,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 128,
+  y = 136,
   width = 16,
   height = 16,
   pattern = "19_4",
@@ -1016,7 +1043,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 128,
+  y = 136,
   width = 8,
   height = 8,
   pattern = "26_2",
@@ -1025,7 +1052,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "26_10",
@@ -1034,7 +1061,7 @@ tile{
 tile{
   layer = 0,
   x = 48,
-  y = 128,
+  y = 136,
   width = 8,
   height = 16,
   pattern = "25",
@@ -1043,7 +1070,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "26_9",
@@ -1052,7 +1079,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 136,
+  y = 144,
   width = 8,
   height = 8,
   pattern = "26",
@@ -1061,7 +1088,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 136,
+  y = 144,
   width = 8,
   height = 8,
   pattern = "26_4",
@@ -1070,7 +1097,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 128,
+  y = 136,
   width = 8,
   height = 8,
   pattern = "26_3",
@@ -1079,7 +1106,7 @@ tile{
 tile{
   layer = 0,
   x = 48,
-  y = 112,
+  y = 120,
   width = 8,
   height = 16,
   pattern = "29",
@@ -1088,7 +1115,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 104,
+  y = 112,
   width = 16,
   height = 8,
   pattern = "31",
@@ -1097,7 +1124,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "26_12",
@@ -1106,7 +1133,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 144,
+  y = 152,
   width = 16,
   height = 8,
   pattern = "24",
@@ -1115,7 +1142,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "26_16",
@@ -1124,7 +1151,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "26_2",
@@ -1133,7 +1160,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "26_10",
@@ -1142,7 +1169,7 @@ tile{
 tile{
   layer = 0,
   x = 48,
-  y = 112,
+  y = 120,
   width = 8,
   height = 16,
   pattern = "25",
@@ -1151,7 +1178,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "26_9",
@@ -1160,7 +1187,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "26",
@@ -1169,7 +1196,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "26_4",
@@ -1178,7 +1205,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "26_3",
@@ -1187,7 +1214,7 @@ tile{
 tile{
   layer = 0,
   x = 48,
-  y = 96,
+  y = 104,
   width = 8,
   height = 16,
   pattern = "29",
@@ -1196,7 +1223,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 88,
+  y = 96,
   width = 16,
   height = 8,
   pattern = "31",
@@ -1205,7 +1232,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 96,
+  y = 104,
   width = 8,
   height = 8,
   pattern = "26_12",
@@ -1214,7 +1241,7 @@ tile{
 tile{
   layer = 0,
   x = 56,
-  y = 128,
+  y = 136,
   width = 16,
   height = 8,
   pattern = "24",
@@ -1223,7 +1250,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 96,
+  y = 104,
   width = 8,
   height = 8,
   pattern = "26_16",
@@ -1232,7 +1259,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "26_15",
@@ -1241,7 +1268,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "26_14",
@@ -1250,7 +1277,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 104,
+  y = 112,
   width = 16,
   height = 8,
   pattern = "30",
@@ -1259,7 +1286,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 128,
+  y = 136,
   width = 8,
   height = 8,
   pattern = "26_7",
@@ -1268,7 +1295,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 144,
+  y = 152,
   width = 16,
   height = 8,
   pattern = "24_2",
@@ -1277,7 +1304,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "26_11",
@@ -1286,7 +1313,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 136,
+  y = 144,
   width = 8,
   height = 8,
   pattern = "26_6",
@@ -1295,7 +1322,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 136,
+  y = 144,
   width = 8,
   height = 8,
   pattern = "26_5",
@@ -1304,7 +1331,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "26_13",
@@ -1313,7 +1340,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 128,
+  y = 136,
   width = 8,
   height = 8,
   pattern = "26_8",
@@ -1322,7 +1349,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "26_15",
@@ -1331,7 +1358,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 96,
+  y = 104,
   width = 8,
   height = 8,
   pattern = "26_14",
@@ -1340,7 +1367,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "26_7",
@@ -1349,7 +1376,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 128,
+  y = 136,
   width = 16,
   height = 8,
   pattern = "24_2",
@@ -1358,7 +1385,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 96,
+  y = 104,
   width = 8,
   height = 8,
   pattern = "26_11",
@@ -1367,7 +1394,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "26_6",
@@ -1376,7 +1403,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 120,
+  y = 128,
   width = 8,
   height = 8,
   pattern = "26_5",
@@ -1385,7 +1412,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "26_13",
@@ -1394,7 +1421,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "26_8",
@@ -1403,16 +1430,16 @@ tile{
 tile{
   layer = 0,
   x = 16,
-  y = 0,
+  y = -24,
   width = 64,
-  height = 48,
+  height = 80,
   pattern = "49",
 }
 
 tile{
   layer = 0,
   x = 72,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "4_27",
@@ -1422,7 +1449,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "4_28",
@@ -1432,7 +1459,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "4_25",
@@ -1442,7 +1469,7 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "4_26",
@@ -1452,7 +1479,7 @@ tile{
 tile{
   layer = 0,
   x = 88,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "4_27",
@@ -1462,7 +1489,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "4_28",
@@ -1472,7 +1499,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "4_25",
@@ -1482,7 +1509,7 @@ tile{
 tile{
   layer = 0,
   x = 88,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "4_26",
@@ -1492,7 +1519,7 @@ tile{
 tile{
   layer = 0,
   x = 104,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "4_27",
@@ -1502,7 +1529,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "4_28",
@@ -1512,7 +1539,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "4_25",
@@ -1522,7 +1549,7 @@ tile{
 tile{
   layer = 0,
   x = 104,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "4_26",
@@ -1532,7 +1559,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "4_27",
@@ -1542,7 +1569,7 @@ tile{
 tile{
   layer = 0,
   x = 128,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "4_28",
@@ -1552,7 +1579,7 @@ tile{
 tile{
   layer = 0,
   x = 128,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "4_25",
@@ -1562,7 +1589,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "4_26",
@@ -1572,7 +1599,7 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "4_27",
@@ -1582,7 +1609,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 96,
+  y = 104,
   width = 8,
   height = 8,
   pattern = "4_28",
@@ -1592,140 +1619,10 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "4_25",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 72,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "4_26",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "4_27",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "4_28",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "4_25",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "4_26",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "4_27",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "4_28",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "4_25",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "4_26",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "4_27",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "4_28",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "4_25",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "4_26",
   tileset = "dungeon",
 }
 
@@ -1733,6 +1630,136 @@ tile{
   layer = 0,
   x = 72,
   y = 104,
+  width = 8,
+  height = 8,
+  pattern = "4_26",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "4_27",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "4_28",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "4_25",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "4_26",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "4_27",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "4_28",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "4_25",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "4_26",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "4_27",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "4_28",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "4_25",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "4_26",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "13_4",
@@ -1742,7 +1769,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "12_3",
@@ -1752,7 +1779,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "12",
@@ -1762,7 +1789,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "12_2",
@@ -1772,7 +1799,7 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "13_6",
@@ -1782,7 +1809,7 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "13",
@@ -1792,7 +1819,7 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = 96,
+  y = 104,
   width = 8,
   height = 8,
   pattern = "13_4",
@@ -1802,7 +1829,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 96,
+  y = 104,
   width = 8,
   height = 8,
   pattern = "12_2",
@@ -1812,26 +1839,6 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "10_2",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "10_3",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 80,
   y = 96,
   width = 8,
   height = 8,
@@ -1891,6 +1898,66 @@ tile{
 
 tile{
   layer = 0,
+  x = 80,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "10_2",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "10_3",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "10_2",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "10_3",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "10_2",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "10_3",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
   x = 96,
   y = 112,
   width = 8,
@@ -1903,6 +1970,86 @@ tile{
   layer = 0,
   x = 104,
   y = 112,
+  width = 8,
+  height = 8,
+  pattern = "10_3",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "10_2",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "10_3",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "10_2",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "10_3",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "10_2",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "10_3",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "10_2",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 104,
   width = 8,
   height = 8,
   pattern = "10_3",
@@ -1931,146 +2078,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
-  y = 104,
-  width = 8,
-  height = 8,
-  pattern = "10_2",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 104,
-  width = 8,
-  height = 8,
-  pattern = "10_3",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "10_2",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "10_3",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "10_2",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "10_3",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "10_2",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "10_3",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "10_2",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 96,
-  width = 8,
-  height = 8,
-  pattern = "10_3",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 104,
-  width = 8,
-  height = 8,
-  pattern = "10_2",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 104,
-  width = 8,
-  height = 8,
-  pattern = "10_3",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "10_2",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
-  x = 136,
-  y = 88,
-  width = 8,
-  height = 8,
-  pattern = "10_3",
-  tileset = "dungeon",
-}
-
-tile{
-  layer = 0,
   x = 128,
   y = 96,
   width = 8,
@@ -2123,6 +2130,26 @@ tile{
   layer = 0,
   x = 136,
   y = 112,
+  width = 8,
+  height = 8,
+  pattern = "10_3",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "10_2",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "10_3",
@@ -2132,7 +2159,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 96,
+  y = 104,
   width = 8,
   height = 8,
   pattern = "11_2",
@@ -2142,7 +2169,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "13_2",
@@ -2152,7 +2179,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = 96,
+  y = 104,
   width = 8,
   height = 8,
   pattern = "13_3",
@@ -2162,7 +2189,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = 112,
+  y = 120,
   width = 8,
   height = 8,
   pattern = "13_5",
@@ -2172,7 +2199,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "11_2",
@@ -2182,7 +2209,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = 104,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "13_3",
@@ -2192,7 +2219,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_11",
@@ -2202,7 +2229,7 @@ tile{
 tile{
   layer = 0,
   x = 88,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_14",
@@ -2212,7 +2239,7 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_16",
@@ -2222,7 +2249,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 80,
+  y = 88,
   width = 16,
   height = 8,
   pattern = "31",
@@ -2232,7 +2259,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 80,
+  y = 88,
   width = 16,
   height = 8,
   pattern = "30",
@@ -2242,7 +2269,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_12",
@@ -2252,7 +2279,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_11",
@@ -2262,7 +2289,7 @@ tile{
 tile{
   layer = 0,
   x = 104,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_14",
@@ -2272,7 +2299,7 @@ tile{
 tile{
   layer = 0,
   x = 88,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_16",
@@ -2282,7 +2309,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 80,
+  y = 88,
   width = 16,
   height = 8,
   pattern = "31",
@@ -2292,7 +2319,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 80,
+  y = 88,
   width = 16,
   height = 8,
   pattern = "30",
@@ -2302,7 +2329,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_12",
@@ -2312,7 +2339,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_11",
@@ -2322,7 +2349,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_14",
@@ -2332,7 +2359,7 @@ tile{
 tile{
   layer = 0,
   x = 104,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_16",
@@ -2342,7 +2369,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 80,
+  y = 88,
   width = 16,
   height = 8,
   pattern = "30",
@@ -2352,7 +2379,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_12",
@@ -2362,7 +2389,7 @@ tile{
 tile{
   layer = 0,
   x = 128,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_11",
@@ -2372,7 +2399,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_14",
@@ -2382,7 +2409,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_16",
@@ -2392,7 +2419,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 80,
+  y = 88,
   width = 16,
   height = 8,
   pattern = "31",
@@ -2402,7 +2429,7 @@ tile{
 tile{
   layer = 0,
   x = 128,
-  y = 80,
+  y = 88,
   width = 16,
   height = 8,
   pattern = "30",
@@ -2412,7 +2439,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_12",
@@ -2422,7 +2449,7 @@ tile{
 tile{
   layer = 0,
   x = 136,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_16",
@@ -2432,7 +2459,7 @@ tile{
 tile{
   layer = 0,
   x = 128,
-  y = 80,
+  y = 88,
   width = 16,
   height = 8,
   pattern = "31",
@@ -2442,7 +2469,7 @@ tile{
 tile{
   layer = 0,
   x = 128,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "26_12",
@@ -2452,7 +2479,7 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = 88,
+  y = 96,
   width = 72,
   height = 8,
   pattern = "9_2",
@@ -2462,7 +2489,7 @@ tile{
 tile{
   layer = 0,
   x = 64,
-  y = 88,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "12",
@@ -2472,7 +2499,7 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = 8,
+  y = 16,
   width = 8,
   height = 32,
   pattern = "36_6",
@@ -2481,7 +2508,7 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = 40,
+  y = 48,
   width = 8,
   height = 8,
   pattern = "36_5",
@@ -2492,7 +2519,7 @@ tile{
   x = 72,
   y = 0,
   width = 8,
-  height = 8,
+  height = 16,
   pattern = "36_6",
 }
 
@@ -2501,14 +2528,14 @@ tile{
   x = 16,
   y = 0,
   width = 8,
-  height = 8,
+  height = 16,
   pattern = "36_2",
 }
 
 tile{
   layer = 0,
   x = 40,
-  y = 24,
+  y = 32,
   width = 16,
   height = 16,
   pattern = "6",
@@ -2517,7 +2544,7 @@ tile{
 tile{
   layer = 0,
   x = 16,
-  y = 40,
+  y = 48,
   width = 8,
   height = 8,
   pattern = "36_3",
@@ -2526,7 +2553,7 @@ tile{
 tile{
   layer = 0,
   x = 24,
-  y = 40,
+  y = 48,
   width = 48,
   height = 8,
   pattern = "36_4",
@@ -2535,7 +2562,7 @@ tile{
 tile{
   layer = 0,
   x = 16,
-  y = 8,
+  y = 16,
   width = 8,
   height = 32,
   pattern = "36_2",
@@ -2543,17 +2570,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 104,
-  width = 16,
-  height = 16,
-  pattern = "1_2",
-}
-
-tile{
-  layer = 0,
   x = 16,
-  y = 88,
+  y = 96,
   width = 16,
   height = 16,
   pattern = "1_2",
@@ -2562,7 +2580,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 88,
+  y = 96,
   width = 16,
   height = 16,
   pattern = "1",
@@ -2570,35 +2588,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 80,
-  width = 32,
-  height = 8,
-  pattern = "51_8",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 80,
-  width = 8,
-  height = 24,
-  pattern = "51_8",
-}
-
-tile{
-  layer = 0,
-  x = 16,
-  y = 104,
-  width = 24,
-  height = 8,
-  pattern = "51_8",
-}
-
-tile{
-  layer = 0,
   x = 104,
-  y = 48,
+  y = 56,
   width = 16,
   height = 16,
   pattern = "1_2",
@@ -2607,7 +2598,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 0,
+  y = 8,
   width = 8,
   height = 72,
   pattern = "36_2",
@@ -2616,7 +2607,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 80,
+  y = 88,
   width = 16,
   height = 8,
   pattern = "31",
@@ -2626,7 +2617,7 @@ tile{
 tile{
   layer = 0,
   x = 32,
-  y = 88,
+  y = 96,
   width = 8,
   height = 32,
   pattern = "36_6",
@@ -2635,7 +2626,7 @@ tile{
 tile{
   layer = 0,
   x = 32,
-  y = 80,
+  y = 88,
   width = 8,
   height = 8,
   pattern = "36_7",
@@ -2644,7 +2635,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 80,
+  y = 88,
   width = 32,
   height = 8,
   pattern = "36_8",
@@ -2653,7 +2644,7 @@ tile{
 tile{
   layer = 0,
   x = 16,
-  y = 104,
+  y = 112,
   width = 16,
   height = 16,
   pattern = "1",
@@ -2662,7 +2653,7 @@ tile{
 tile{
   layer = 0,
   x = 112,
-  y = 32,
+  y = 40,
   width = 32,
   height = 16,
   pattern = "53",
@@ -2671,7 +2662,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = -8,
+  y = 0,
   width = 16,
   height = 16,
   pattern = "22",
@@ -2680,7 +2671,7 @@ tile{
 tile{
   layer = 0,
   x = -48,
-  y = -8,
+  y = 0,
   width = 64,
   height = 16,
   pattern = "22",
@@ -2743,7 +2734,80 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 8,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "22",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "30",
+  tileset = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "22",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "22",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "22",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "22",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "22",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "22",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 72,
   width = 16,
   height = 16,
   pattern = "22",
@@ -2754,88 +2818,6 @@ tile{
   x = 152,
   y = 80,
   width = 16,
-  height = 8,
-  pattern = "30",
-  tileset = "overworld",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 16,
-  width = 16,
-  height = 16,
-  pattern = "22",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "22",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 32,
-  width = 16,
-  height = 16,
-  pattern = "22",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 40,
-  width = 16,
-  height = 16,
-  pattern = "22",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 48,
-  width = 16,
-  height = 16,
-  pattern = "22",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 56,
-  width = 16,
-  height = 16,
-  pattern = "22",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "22",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 72,
-  width = 16,
-  height = 16,
-  pattern = "22",
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 8,
-  width = 16,
   height = 16,
   pattern = "22",
 }
@@ -2914,21 +2896,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 0,
+  x = 144,
+  y = 80,
   width = 16,
   height = 16,
   pattern = "22",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 72,
-  width = 16,
-  height = 8,
-  pattern = "30",
-  tileset = "overworld",
 }
 
 tile{
@@ -2943,6 +2915,16 @@ tile{
 tile{
   layer = 0,
   x = 0,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "30",
+  tileset = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 0,
   y = 16,
   width = 16,
   height = 16,
@@ -3005,21 +2987,11 @@ tile{
 
 tile{
   layer = 0,
-  x = -8,
-  y = 0,
+  x = 0,
+  y = 72,
   width = 16,
   height = 16,
   pattern = "22",
-}
-
-tile{
-  layer = 0,
-  x = -8,
-  y = 72,
-  width = 16,
-  height = 8,
-  pattern = "30",
-  tileset = "overworld",
 }
 
 tile{
@@ -3034,6 +3006,16 @@ tile{
 tile{
   layer = 0,
   x = -8,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "30",
+  tileset = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = -8,
   y = 16,
   width = 16,
   height = 16,
@@ -3096,21 +3078,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
-  y = 0,
+  x = -8,
+  y = 72,
   width = 16,
   height = 16,
   pattern = "22",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 72,
-  width = 16,
-  height = 8,
-  pattern = "30",
-  tileset = "overworld",
 }
 
 tile{
@@ -3125,6 +3097,16 @@ tile{
 tile{
   layer = 0,
   x = 0,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "30",
+  tileset = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 0,
   y = 16,
   width = 16,
   height = 16,
@@ -3180,6 +3162,15 @@ tile{
   layer = 0,
   x = 0,
   y = 64,
+  width = 16,
+  height = 16,
+  pattern = "22",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 72,
   width = 16,
   height = 16,
   pattern = "22",
@@ -3188,7 +3179,7 @@ tile{
 tile{
   layer = 0,
   x = 88,
-  y = -8,
+  y = 0,
   width = 16,
   height = 16,
   pattern = "22",
@@ -3197,7 +3188,7 @@ tile{
 tile{
   layer = 0,
   x = 104,
-  y = -8,
+  y = 0,
   width = 16,
   height = 16,
   pattern = "22",
@@ -3206,7 +3197,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = -8,
+  y = 0,
   width = 16,
   height = 16,
   pattern = "22",
@@ -3215,7 +3206,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 80,
+  y = 88,
   width = 16,
   height = 8,
   pattern = "30",
@@ -3225,24 +3216,6 @@ tile{
 tile{
   layer = 0,
   x = -8,
-  y = 72,
-  width = 16,
-  height = 16,
-  pattern = "22",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 72,
-  width = 16,
-  height = 16,
-  pattern = "22",
-}
-
-tile{
-  layer = 0,
-  x = -8,
   y = 80,
   width = 16,
   height = 16,
@@ -3307,6 +3280,24 @@ tile{
   layer = 0,
   x = 0,
   y = 104,
+  width = 16,
+  height = 16,
+  pattern = "22",
+}
+
+tile{
+  layer = 0,
+  x = -8,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "22",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 112,
   width = 16,
   height = 16,
   pattern = "22",
@@ -3315,10 +3306,76 @@ tile{
 tile{
   layer = 0,
   x = 40,
-  y = 8,
+  y = 16,
   width = 16,
   height = 16,
   pattern = "6",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 104,
+  width = 8,
+  height = 24,
+  pattern = "51_6",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 80,
+  width = 8,
+  height = 24,
+  pattern = "51_6",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 224,
+  width = 160,
+  height = 32,
+  pattern = "50_2",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 232,
+  width = 32,
+  height = 24,
+  pattern = "33",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 120,
+  width = 48,
+  height = 8,
+  pattern = "9_7",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 104,
+  width = 56,
+  height = 16,
+  pattern = "10_3",
+  tileset = "dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "11_3",
+  tileset = "dungeon",
 }
 
 enemy{
@@ -3332,19 +3389,18 @@ enemy{
 
 destructible{
   layer = 0,
-  x = 128,
-  y = 157,
+  x = 88,
+  y = 173,
   sprite = "destructibles/vase",
   weight = 1,
   can_be_cut = true,
-  can_explode = true,
   damage_on_enemies = 0,
 }
 
 teletransporter{
   layer = 0,
   x = 104,
-  y = 136,
+  y = 144,
   width = 16,
   height = 16,
   destination_map = "interior",
@@ -3354,7 +3410,7 @@ destination{
   name = "destination",
   layer = 0,
   x = 112,
-  y = 165,
+  y = 173,
   direction = 3,
 }
 
@@ -3369,7 +3425,7 @@ npc{
   name = "lilypadsign",
   layer = 0,
   x = 88,
-  y = 21,
+  y = 29,
   direction = 3,
   subtype = 0,
   sprite = "npc/sign",
@@ -3380,7 +3436,7 @@ npc{
   name = "chameleonsign",
   layer = 0,
   x = 16,
-  y = 149,
+  y = 157,
   direction = 3,
   subtype = 0,
   sprite = "npc/sign",
@@ -3390,7 +3446,7 @@ npc{
 tile{
   layer = 1,
   x = 112,
-  y = 8,
+  y = 16,
   width = 32,
   height = 24,
   pattern = "52",
@@ -3399,7 +3455,7 @@ tile{
 separator{
   layer = 1,
   x = 0,
-  y = 112,
+  y = 120,
   width = 160,
   height = 16,
 }

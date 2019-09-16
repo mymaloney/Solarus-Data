@@ -23,7 +23,7 @@ local min_walking_distance, max_walking_distance = 30, 100
 local min_waiting_delay, max_waiting_delay = 1000, 3000
 local min_walking_speed, max_walking_speed = 30, 60
 local tongue_attack_speed, tongue_retreat_speed = 200, 250
-local lick_distance = 150
+local lick_distance = 100
 local has_tongue, is_attacking = true, false
 
 

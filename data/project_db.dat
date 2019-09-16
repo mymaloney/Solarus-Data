@@ -776,6 +776,3 @@ file{ path = "sprites/teletransporters", license = "CC BY-SA 4.0" }
 file{ path = "sprites/teletransporters/destination.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/teletransporters/teletransporter.png", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/teletransporters/teletransporter_blue.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/castle.dat", author = "Christopho, Zane Kukta", license = "CC BY-SA 4.0" }
-file{ path = "tilesets/house.dat", author = "Diarandor", license = "CC-BY-SA 4.0" }
-file{ path = "tilesets/outside.dat", author = "Diarandor, Max Mraz", license = "CC-BY-SA 4.0" }

@@ -7,10 +7,10 @@ animation{
 }
 animation{
   name = "destroy",
-  src_image = "destructibles/vase_broken.png",
-  frame_delay = 100,
+  src_image = "entity_destroy.png",
+  frame_delay = 150,
   directions = {
-    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 8 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 4 },
   },
 }
 animation{
