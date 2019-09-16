@@ -1,0 +1,18 @@
+dialog{
+  id = "chameleon",
+  text = [[
+The chameleon might seem
+mean, but he just thinks
+you're a tasty bug!
+]],
+}
+
+dialog{
+  id = "lilypad",
+  text = [[
+You can walk across 
+lilypads to reach
+far away places!
+]],
+}
+

@@ -4,7 +4,7 @@ map{ id = "interior", description = "interior" }
 tileset{ id = "dungeon", description = "dungeon" }
 tileset{ id = "overworld", description = "overworld" }
 
-sprite{ id = "animals/bird_red", description = "Red Bird" }
+sprite{ id = "animals/bird_red", description = "Bird" }
 sprite{ id = "animals/butterfly_blue", description = "Butterfly blue" }
 sprite{ id = "animals/butterfly_pink", description = "Butterfly pink" }
 sprite{ id = "animals/butterfly_purple", description = "Butterfly purple" }
