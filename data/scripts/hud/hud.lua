@@ -461,14 +461,14 @@ local function initialize_hud_features(game)
     end
   end
 
-  -- Enables or disables the life counter.
+  -- Enables or disables the money counter.
   function hud:set_rupees_enabled(enabled)
     if rupees then
       set_menu_enabled(rupees, enabled)
     end
   end
 
-  -- Enables or disables the life counter.
+  -- Enables or disables the keys counter.
   function hud:set_keys_enabled(enabled)
     if keys then
       set_menu_enabled(keys, enabled)
