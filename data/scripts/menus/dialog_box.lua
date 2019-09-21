@@ -52,7 +52,7 @@ local function initialize_dialog_box_features(game)
   }
 
   -- Constants.
-  local nb_visible_lines = 3     -- Maximum number of lines in the dialog box.
+  local nb_visible_lines = 2     -- Maximum number of lines in the dialog box.
   local char_delays = {          -- Delay before displaying the next character.
     slow = 60,
     medium = 40,
@@ -543,9 +543,9 @@ local function initialize_dialog_box_features(game)
     end
 
     -- Draw the text.
-    local left_padding = 8
+    local left_padding = 0
     local text_x = x + (self.icon_index == nil and 16 or 48) + left_padding
-    local text_y = y - 6
+    local text_y = y - 8
     local line_spacing = 14
     for i = 1, nb_visible_lines do
       text_y = text_y + line_spacing
@@ -581,7 +581,7 @@ local function initialize_dialog_box_features(game)
 
     -- Draw the end message arrow.
     if self:is_full() then
-      self.end_lines_sprite:draw(self.dialog_surface, x + 103, y + 56)
+      self.end_lines_sprite:draw(self.dialog_surface, x + 74, y + 40)
     end
 
     -- Final blit.
