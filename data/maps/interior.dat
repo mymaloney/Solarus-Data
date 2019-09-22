@@ -1023,6 +1023,7 @@ teletransporter{
   width = 32,
   height = 16,
   destination_map = "first_map",
+  destination = "destination_2",
 }
 
 destination{

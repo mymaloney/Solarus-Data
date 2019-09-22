@@ -1,8 +1,10 @@
 map{ id = "first_map", description = "First map" }
+map{ id = "house", description = "House" }
 map{ id = "interior", description = "interior" }
 
 tileset{ id = "dungeon", description = "dungeon" }
 tileset{ id = "overworld", description = "overworld" }
+tileset{ id = "trees", description = "Trees" }
 
 sprite{ id = "animals/bird_red", description = "Bird" }
 sprite{ id = "animals/butterfly_blue", description = "Butterfly blue" }

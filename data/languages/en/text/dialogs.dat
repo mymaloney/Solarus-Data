@@ -8,6 +8,16 @@ you're a tasty bug!
 }
 
 dialog{
+  id = "diarandor",
+  text = [[
+Hello! I'm a coloured
+person!
+Wait, is that
+offensive?
+]],
+}
+
+dialog{
   id = "lilypad",
   text = [[
 You can walk across 
