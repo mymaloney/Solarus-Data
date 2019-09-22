@@ -4161,6 +4161,17 @@ separator{
   height = 256,
 }
 
+custom_entity{
+  name = "dog",
+  layer = 0,
+  x = 200,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  model = "dog",
+}
+
 tile{
   layer = 1,
   x = 112,

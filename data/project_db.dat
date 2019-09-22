@@ -12,6 +12,7 @@ sprite{ id = "animals/butterfly_pink", description = "Butterfly pink" }
 sprite{ id = "animals/butterfly_purple", description = "Butterfly purple" }
 sprite{ id = "animals/butterfly_white", description = "Butterfly white" }
 sprite{ id = "animals/butterfly_yellow", description = "Butterfly yellow" }
+sprite{ id = "animals/dog", description = "A dog wagging its tail." }
 sprite{ id = "animals/meow_orange", description = "Meow orange" }
 sprite{ id = "animals/mouse", description = "Mouse" }
 sprite{ id = "animals/worf_brown", description = "Worf Brown" }
@@ -285,6 +286,7 @@ enemy{ id = "slime_red", description = "Slime (red)" }
 enemy{ id = "slime_yellow", description = "Slime (yellow)" }
 enemy{ id = "slimy_green", description = "Slimy Green" }
 
+entity{ id = "dog", description = "A jumping dog." }
 
 language{ id = "en", description = "English" }
 
