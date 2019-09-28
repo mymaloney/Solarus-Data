@@ -5,6 +5,8 @@
 -- Each element must be the name of a menu script.
 -- The last menu is supposed to start a game.
 
+require("scripts/menus/pause.lua")
+
 local initial_menus = {
   "scripts/menus/splash_screen",  
   --"scripts/menus/solarus_logo",
