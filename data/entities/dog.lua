@@ -13,6 +13,7 @@ local game = entity:get_game()
 local map = entity:get_map()
 local sprite
 local m   --movement variable
+local sit_timer
 
 -- Event called when the custom entity is initialized.
 function entity:on_created()
@@ -23,24 +24,37 @@ function entity:on_created()
   sprite = self:create_sprite("animals/"..self:get_model())
   self:set_direction(3)
   self:go_random()
+
 end
 
 
 function entity:go_random()
+  local random = math.random(1000, 20000)
+print(random)
   sprite:set_animation("jumping")
-  m = sol.movement.create("straight")
-  m:set_smooth(false)
-  m:set_angle(math.random(0, 2*math.pi))
+  --m = sol.movement.create("straight")
+  m = sol.movement.create("random_path")
+  --m:set_smooth(false)
+  --m:set_angle(math.random(0, 2*math.pi))
   m:set_speed(64)
-  m:set_max_distance(128)
-  function m:on_obstacle_reached() m:set_angle(math.random(0, 2*math.pi)) end
-  function m:on_finished() m:set_angle(math.random(0, 2*math.pi)) end
+  --m:set_max_distance(128)
+  --function m:on_obstacle_reached() m:set_angle(math.random(0, 2*math.pi)) end
+  --function m:on_finished() m:set_angle(math.random(0, 2*math.pi)) end
   m:start(self)
+  sit_timer = sol.timer.start(entity, random, function() entity:sit() end) --timer with a random time (between 1 and 20 seconds) to make dog sit.
+end
+
+function entity:sit()
+  local random = math.random(500, 7500)
+print(random)
+  if m ~= nil then m:stop() end
+  sprite:set_animation("sitting")
+  sol.timer.start(entity, random, function() entity:go_random() end)
 end
 
 function entity:on_restarted()
 if m ~= nil then m:stop() end
-  self:go_random()
+  self:sit()
 end
 
 function entity:on_movement_changed(m)

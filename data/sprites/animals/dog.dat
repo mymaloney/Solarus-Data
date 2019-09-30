@@ -4,9 +4,21 @@ animation{
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 16, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 6 },
-    { x = 16, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 6 },
-    { x = 16, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 6 },
-    { x = 16, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 6 },
+    { x = 64, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 64, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 64, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 64, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+  },
+}
+animation{
+  name = "sitting",
+  src_image = "animals.png",
+  frame_delay = 60,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 16, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 16, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 16, y = 64, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 16, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
   },
 }
