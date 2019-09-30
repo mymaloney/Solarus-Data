@@ -200,9 +200,9 @@ animation{
   frame_delay = 50,
   directions = {
     { x = 0, y = 0, frame_width = 56, frame_height = 24, origin_x = 28, origin_y = 21, num_frames = 6 },
-    { x = 0, y = 24, frame_width = 56, frame_height = 24, origin_x = 28, origin_y = 21, num_frames = 6 },
-    { x = 0, y = 48, frame_width = 56, frame_height = 24, origin_x = 28, origin_y = 21, num_frames = 6 },
-    { x = 0, y = 72, frame_width = 56, frame_height = 24, origin_x = 28, origin_y = 21, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 56, frame_height = 24, origin_x = 28, origin_y = 21, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 56, frame_height = 24, origin_x = 28, origin_y = 21, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 56, frame_height = 24, origin_x = 28, origin_y = 21, num_frames = 6 },
   },
 }
 animation{
@@ -219,14 +219,14 @@ animation{
 }
 animation{
   name = "pushing",
-  src_image = "hero/eldran_grabbing.png",
+  src_image = "hero.png",
   frame_delay = 150,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 6 },
-    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 6 },
-    { x = 0, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 6 },
-    { x = 0, y = 96, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 6 },
+    { x = 64, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 112, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 160, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
   },
 }
 animation{

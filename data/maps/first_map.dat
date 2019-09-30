@@ -1439,9 +1439,9 @@ tile{
 tile{
   layer = 0,
   x = 16,
-  y = -32,
+  y = 0,
   width = 64,
-  height = 80,
+  height = 48,
   pattern = "49",
 }
 
@@ -2526,18 +2526,18 @@ tile{
 tile{
   layer = 0,
   x = 72,
-  y = -8,
+  y = 0,
   width = 8,
-  height = 16,
+  height = 8,
   pattern = "36_6",
 }
 
 tile{
   layer = 0,
   x = 16,
-  y = -8,
+  y = 0,
   width = 8,
-  height = 16,
+  height = 8,
   pattern = "36_2",
 }
 
@@ -2679,9 +2679,9 @@ tile{
 
 tile{
   layer = 0,
-  x = -48,
+  x = 0,
   y = -8,
-  width = 64,
+  width = 16,
   height = 16,
   pattern = "22",
 }
@@ -3389,8 +3389,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 8,
-  y = 184,
+  x = 200,
+  y = 152,
   width = 16,
   height = 16,
   pattern = "3",
@@ -3769,18 +3769,18 @@ tile{
 tile{
   layer = 0,
   x = 312,
-  y = 136,
+  y = 144,
   width = 8,
-  height = 24,
+  height = 16,
   pattern = "37_12",
 }
 
 tile{
   layer = 0,
   x = 256,
-  y = 136,
+  y = 144,
   width = 8,
-  height = 24,
+  height = 16,
   pattern = "37_5",
 }
 
@@ -4054,13 +4054,174 @@ tile{
   pattern = "2_11",
 }
 
+tile{
+  layer = 0,
+  x = 192,
+  y = 8,
+  width = 8,
+  height = 32,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 24,
+  width = 16,
+  height = 8,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 16,
+  width = 8,
+  height = 32,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 8,
+  width = 8,
+  height = 8,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 8,
+  width = 32,
+  height = 8,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 8,
+  width = 8,
+  height = 8,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 16,
+  width = 8,
+  height = 32,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 40,
+  width = 40,
+  height = 8,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 8,
+  width = 8,
+  height = 24,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 80,
+  width = 48,
+  height = 8,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "51_36",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "51_36",
+}
+
 destructible{
   layer = 0,
   x = 88,
   y = 165,
   sprite = "destructibles/vase",
   can_be_cut = true,
-  damage_on_enemies = 0,
 }
 
 teletransporter{
@@ -4101,8 +4262,8 @@ npc{
 npc{
   name = "chameleonsign",
   layer = 0,
-  x = 16,
-  y = 149,
+  x = 8,
+  y = 141,
   direction = 3,
   subtype = 0,
   sprite = "npc/sign",
@@ -4172,6 +4333,15 @@ custom_entity{
   model = "dog",
 }
 
+enemy{
+  layer = 0,
+  x = 16,
+  y = 205,
+  direction = 0,
+  breed = "chameleon",
+  treasure_name = "gem",
+}
+
 tile{
   layer = 1,
   x = 112,
@@ -4183,8 +4353,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 0,
-  y = 168,
+  x = 192,
+  y = 136,
   width = 32,
   height = 16,
   pattern = "4",

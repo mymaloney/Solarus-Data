@@ -224,23 +224,23 @@ local function initialize_hud_features(game)
 
       -- Set the transparency on the icons.
       if action_icon then
-        action_icon:set_transparent(top_left_transparent)
+--        action_icon:set_transparent(top_left_transparent)
       end
       if attack_icon then
-        attack_icon:set_transparent(top_left_transparent)
+--        attack_icon:set_transparent(top_left_transparent)
       end
       if pause_icon then
-        pause_icon:set_transparent(top_left_transparent)
+--        pause_icon:set_transparent(top_left_transparent)
       end
       for _, item_icon in pairs(item_icons) do
         if item_icon then
-          item_icon:set_transparent(top_left_transparent)
+--          item_icon:set_transparent(top_left_transparent)
         end
       end
 
       -- Set the transparency on the hearts.
       if hearts then
-        hearts:set_transparent(top_right_transparent)
+--        hearts:set_transparent(top_right_transparent)
       end
     end
 
