@@ -127,6 +127,7 @@ sprite{ id = "switches/switch_solid", description = "Solid switch" }
 sprite{ id = "teletransporters/destination", description = "Destination of teletransporter" }
 sprite{ id = "teletransporters/teletransporter_blue", description = "Teletransporter (blue)" }
 
+music{ id = "eduardo/Silent Princess", description = "Silent Princess (DELETE THIS -NINTENDO)" }
 music{ id = "eduardo/boss", description = "Boss" }
 music{ id = "eduardo/cave", description = "Cave" }
 music{ id = "eduardo/dungeon_finished", description = "Dungeon finished" }
