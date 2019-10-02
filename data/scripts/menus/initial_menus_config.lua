@@ -9,7 +9,6 @@ require("scripts/menus/pause.lua")
 
 local initial_menus = {
   "scripts/menus/splash_screen",  
-  --"scripts/menus/solarus_logo",
   "scripts/menus/start_game",
 }
 

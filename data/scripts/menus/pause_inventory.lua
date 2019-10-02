@@ -23,7 +23,11 @@ local inventory_num_columns = 5
 local inventory_num_rows = math.ceil(#inventory_items_names / inventory_num_columns)
 
 local movement_speed = 800
-local movement_distance = 160
+local i_x,movement_distance = sol.video.get_quest_size()
+
+local white_background = sol.surface.create(160,144)
+white_background:set_xy(0,movement_distance)
+white_background:fill_color{255,255,255}
 
 local function display_items_grid(game, widget, item_names, item_script_folder, sprite_folder, num_columns, x_margin, x_padding, y_margin, y_padding)
   -- Draw the items, if they are possessed, depending on their variant
@@ -48,7 +52,7 @@ end
 -- Draw part of inventory containing the equipable items
 local function create_inventory_widget(game)
   local widget = gui_designer:create(176, 144)
-  widget:set_xy(16, 16 - movement_distance)
+  widget:set_xy(16, 16 + movement_distance)
   widget:make_green_frame()
 
   display_items_grid(game, widget, inventory_items_names, "inventory", "menus/items/inventory", inventory_num_columns, 8, 16, 29, 16)
@@ -59,7 +63,7 @@ end
 local function create_quest_widget(game)
 
   local widget = gui_designer:create(112, 144)
-  widget:set_xy(200, 16 - movement_distance)
+  widget:set_xy(200, 16 + movement_distance)
   widget:make_yellow_frame()
   local num_columns = 3
   
@@ -86,7 +90,7 @@ end
 local function create_do_widget(game)
 
   local widget = gui_designer:create(176, 64)
-  widget:set_xy(16, 168 - movement_distance)
+  widget:set_xy(16, 168 + movement_distance)
   widget:make_red_frame()
   local num_columns = 5
   
@@ -130,10 +134,10 @@ function inventory_manager:new(game)
   -- Rapidly moves the inventory widgets towards or away from the screen.
   local function move_widgets(callback)
 
-    local angle_added = 0
-    if select(2, inventory_widget:get_xy()) > 0 then
+    local angle_added = math.pi
+    if select(2, inventory_widget:get_xy()) < (movement_distance+16) then
       -- Opposite direction when closing.
-      angle_added = math.pi
+      angle_added = 0
     end
 
     local movement = sol.movement.create("straight")
@@ -159,6 +163,12 @@ function inventory_manager:new(game)
     movement:set_max_distance(movement_distance)
     movement:set_angle(3 * math.pi / 2 + angle_added)
     equipment_widget:start_movement(movement)
+  
+    local movement = sol.movement.create("straight")
+    movement:set_speed(movement_speed)
+    movement:set_max_distance(movement_distance)
+    movement:set_angle(3 * math.pi / 2 + angle_added)
+    movement:start(white_background)
 
   end
 
@@ -203,7 +213,7 @@ function inventory_manager:new(game)
   end
 
   function inventory:on_draw(dst_surface)
-
+    white_background:draw(dst_surface)
     inventory_widget:draw(dst_surface)
     quest_widget:draw(dst_surface)
     do_widget:draw(dst_surface)
