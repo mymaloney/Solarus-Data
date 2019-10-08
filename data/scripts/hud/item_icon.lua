@@ -28,7 +28,13 @@ function item_icon_builder:new(game, config)
   -- The surface used by the icon for the foreground is handled here.
   item_icon.foreground = sol.surface.create(32, 24)
   item_icon.hud_icon:set_foreground(item_icon.foreground)
-
+  
+  --Used for movement
+  local ix,movement_distance = sol.video.get_quest_size()
+  movement_distance = movement_distance - 24
+  local movement_speed = 800
+  item_icon.state = "unpaused"  
+  
   -- Draws the icon surface.
   function item_icon:on_draw(dst_surface)
     item_icon.hud_icon:on_draw(dst_surface)
@@ -170,7 +176,30 @@ function item_icon_builder:new(game, config)
   function item_icon:on_started()
     item_icon:check()
   end
-
+  
+  function item_icon:pause_movement()
+    local movement = sol.movement.create("straight")
+    movement:set_speed(movement_speed)
+    movement:set_max_distance(movement_distance)
+    movement:set_angle(math.pi / 2 + 0)
+    movement:start(item_icon.hud_icon)
+  end
+    
+  function item_icon:unpause_movement()
+    local movement = sol.movement.create("straight")
+    movement:set_speed(movement_speed)
+    movement:set_max_distance(movement_distance)
+    movement:set_angle(3*math.pi / 2 + 0)
+    movement:start(item_icon.hud_icon)
+  end  
+  
+  game["item_icon_"..item_icon.slot] = item_icon
+  
+  function game:get_item_icon(slot)
+    return game["item_icon_"..slot]
+  end  
+  
+  
   -- Returns the menu.
   return item_icon
 end

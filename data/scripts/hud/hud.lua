@@ -298,7 +298,7 @@ local function initialize_hud_features(game)
       if attack_icon ~= nil then
         attack_icon:set_dst_position(attack_icon:get_normal_position())
         local effect = game.get_custom_command_effect ~= nil and game:get_custom_command_effect("attack") or game:get_command_effect("attack")
-        attack_icon:set_enabled(effect ~= nil)
+        attack_icon:set_enabled(true)
         attack_icon:set_active(true)
       end
 

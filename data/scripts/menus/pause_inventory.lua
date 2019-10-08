@@ -1,17 +1,18 @@
 local inventory_manager = {}
 
 local gui_designer = require("scripts/menus/lib/gui_designer")
+require("scripts/multi_events")
 
 local inventory_items_names = {
-  
+
 }
 
 local main_equipment_names = {
-    
+  "sword", "tunic",
 }
 
 local secondary_equipment_names = {
-  
+  "money_bag"
 }
 
 local quest_items_name = {
@@ -19,7 +20,7 @@ local quest_items_name = {
 }
 
 -- The inventory's numbers of columns and rows of are used for the selection system
-local inventory_num_columns = 5
+local inventory_num_columns = 2
 local inventory_num_rows = math.ceil(#inventory_items_names / inventory_num_columns)
 
 local movement_speed = 800
@@ -27,7 +28,7 @@ local i_x,movement_distance = sol.video.get_quest_size()
 
 local white_background = sol.surface.create(160,144)
 white_background:set_xy(0,movement_distance)
-white_background:fill_color{255,255,255}
+white_background:fill_color{255,255,255,255}
 
 local function display_items_grid(game, widget, item_names, item_script_folder, sprite_folder, num_columns, x_margin, x_padding, y_margin, y_padding)
   -- Draw the items, if they are possessed, depending on their variant
@@ -51,8 +52,8 @@ end
 
 -- Draw part of inventory containing the equipable items
 local function create_inventory_widget(game)
-  local widget = gui_designer:create(176, 144)
-  widget:set_xy(16, 16 + movement_distance)
+  local widget = gui_designer:create(84, 118)
+  widget:set_xy(4, 16 + movement_distance)
   widget:make_green_frame()
 
   display_items_grid(game, widget, inventory_items_names, "inventory", "menus/items/inventory", inventory_num_columns, 8, 16, 29, 16)
@@ -62,10 +63,10 @@ end
 
 local function create_quest_widget(game)
 
-  local widget = gui_designer:create(112, 144)
-  widget:set_xy(200, 16 + movement_distance)
+  local widget = gui_designer:create(72, 52)
+  widget:set_xy(82, 82 + movement_distance)
   widget:make_yellow_frame()
-  local num_columns = 3
+  local num_columns = 4
   
   display_items_grid(game, widget, quest_items_name, "quest", "menus/items/quest", num_columns, 8, 16, 24, 8)
 
@@ -75,13 +76,13 @@ end
 
 local function create_equipment_widget(game)
 
-  local widget = gui_designer:create(112, 64)
-  widget:set_xy(200, 168 - movement_distance)
+  local widget = gui_designer:create(72, 64)
+  widget:set_xy(82, 16 + movement_distance)
   widget:make_yellow_frame()
   local items_surface = widget:get_surface()
-  local num_columns = 3
+  local num_columns = 5
   
-  display_items_grid(game, widget, main_equipment_names, "equipment", "menus/items/equipment", num_columns, 8, 16, 24, 8)
+  display_items_grid(game, widget, main_equipment_names, "equipment", "menus/items/equipment", num_columns, 8, 8, 24, 8)
   
   return widget
   
@@ -166,7 +167,7 @@ function inventory_manager:new(game)
   
     local movement = sol.movement.create("straight")
     movement:set_speed(movement_speed)
-    movement:set_max_distance(movement_distance)
+    movement:set_max_distance(movement_distance-24)
     movement:set_angle(3 * math.pi / 2 + angle_added)
     movement:start(white_background)
 
@@ -235,6 +236,19 @@ function inventory_manager:new(game)
       -- Close the pause menu.
       state = "closing"
       sol.audio.play_sound("pause_closed")
+    
+      local item_icon_1 = game:get_item_icon(1)
+      local item_icon_2 = game:get_item_icon(2)
+      local hearts_icon = game:get_hearts_icon()
+      local money_icon = game:get_rupees_icon()
+      local hud_bg_icon = game:get_hud_bg_icon()
+      
+      item_icon_1:unpause_movement()
+      item_icon_2:unpause_movement()
+      hearts_icon:unpause_movement()
+      money_icon:unpause_movement()
+      hud_bg_icon:unpause_movement()
+  
       move_widgets(function() game:set_paused(false) end)
       handled = true
 
@@ -295,6 +309,19 @@ function inventory_manager:new(game)
   end
 
   set_cursor_position(cursor_row, cursor_column)
+
+  local item_icon_1 = game:get_item_icon(1)
+  local item_icon_2 = game:get_item_icon(2)
+  local hearts_icon = game:get_hearts_icon()
+  local money_icon = game:get_rupees_icon()
+  local hud_bg_icon = game:get_hud_bg_icon()
+      
+  item_icon_1:pause_movement()
+  item_icon_2:pause_movement()
+  hearts_icon:pause_movement()
+  money_icon:pause_movement()
+  hud_bg_icon:pause_movement()
+  
   move_widgets(function() state = "ready" end)
 
   return inventory

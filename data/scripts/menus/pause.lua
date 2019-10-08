@@ -14,7 +14,7 @@ local function initialize_pause_features(game)
   end
 
   local inventory_builder = require("scripts/menus/pause_inventory")
-  local commands_builder = require("scripts/menus/pause_commands")
+  --local commands_builder = require("scripts/menus/pause_commands")
 
   local pause_menu = {}
   game.pause_menu = pause_menu
@@ -35,7 +35,7 @@ local function initialize_pause_features(game)
 
     local order = {
       inventory = 1,
-      commands = 2,
+      --commands = 2,
     }
     return order
   end
@@ -48,7 +48,7 @@ local function initialize_pause_features(game)
     -- Array of submenus (inventory, etc.).
     pause_submenus = {}
     pause_submenus[submenus_order.inventory] = inventory_builder:new(game)
-    pause_submenus[submenus_order.commands] = commands_builder:new(game)
+    --pause_submenus[submenus_order.commands] = commands_builder:new(game)
 
     -- Play the sound of pausing the game.
     sol.audio.play_sound("pause_open")

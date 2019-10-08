@@ -17,6 +17,10 @@ function hearts_builder:new(game, config)
   hearts.all_hearts_img = sol.surface.create("hud/hearts.png")
   hearts.transparent = false
 
+  local ix,movement_distance = sol.video.get_quest_size()
+  movement_distance = movement_distance - 24
+  local movement_speed = 800
+
   function hearts:on_started()
 
     -- This function is called when the HUD starts or
@@ -125,6 +129,27 @@ function hearts_builder:new(game, config)
     if transparent ~= hearts.transparent then
       hearts.transparent = transparent
     end
+  end
+
+ function hearts:pause_movement()
+    local movement = sol.movement.create("straight")
+    movement:set_speed(movement_speed)
+    movement:set_max_distance(movement_distance)
+    movement:set_angle(math.pi / 2 + 0)
+    movement:start(hearts.surface)
+  end
+    
+  function hearts:unpause_movement()
+    local movement = sol.movement.create("straight")
+    movement:set_speed(movement_speed)
+    movement:set_max_distance(movement_distance)
+    movement:set_angle(3*math.pi / 2 + 0)
+    movement:start(hearts.surface)
+  end  
+
+  game["hearts"] = hearts
+  function game:get_hearts_icon()
+    return game["hearts"]
   end
 
   hearts:rebuild_surface()

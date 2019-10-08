@@ -1,7 +1,7 @@
 animation{
   name = "solid_blinking",
   src_image = "menus/item_cursor.png",
-  frame_delay = 400,
+  frame_delay = 60,
   frame_to_loop_on = 0,
   directions = {
     { x = 0, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 16, num_frames = 2 },
@@ -10,7 +10,7 @@ animation{
 animation{
   name = "dashed_blinking",
   src_image = "menus/item_cursor.png",
-  frame_delay = 400,
+  frame_delay = 150,
   frame_to_loop_on = 0,
   directions = {
     { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 16, num_frames = 2 },
