@@ -15,17 +15,13 @@ function rupees_builder:new(game, config)
   }
   rupees.digits_text:set_text(game:get_money())
   rupees.rupee_icons_img = sol.surface.create("hud/rupee_icon.png")
-  rupees.rupee_bag_displayed = game:get_item("equipment/money_bag"):get_variant()
+  rupees.rupee_bag_displayed = game:get_item("money_bag"):get_variant()
   rupees.money_displayed = game:get_money()
-
-  local ix,movement_distance = sol.video.get_quest_size()
-  movement_distance = movement_distance - 24
-  local movement_speed = 800
 
   function rupees:check()
 
     local need_rebuild = false
-    local rupee_bag = game:get_item("equipment/money_bag"):get_variant()
+    local rupee_bag = game:get_item("money_bag"):get_variant()
     local money = game:get_money()
 
     -- Max money.
@@ -105,27 +101,6 @@ function rupees_builder:new(game, config)
   function rupees:on_started()
     rupees:check()
     rupees:rebuild_surface()
-  end
-
-  function rupees:pause_movement()
-    local movement = sol.movement.create("straight")
-    movement:set_speed(movement_speed)
-    movement:set_max_distance(movement_distance)
-    movement:set_angle(math.pi / 2 + 0)
-    movement:start(rupees.surface)
-  end
-    
-  function rupees:unpause_movement()
-    local movement = sol.movement.create("straight")
-    movement:set_speed(movement_speed)
-    movement:set_max_distance(movement_distance)
-    movement:set_angle(3*math.pi / 2 + 0)
-    movement:start(rupees.surface)
-  end  
-
-  game["rupees_icon"] = rupees
-  function game:get_rupees_icon()
-    return game["rupees_icon"]
   end
 
   return rupees

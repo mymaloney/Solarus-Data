@@ -12,13 +12,6 @@
 
 local hud_config = {
 
-  --Background
-  {
-    menu_script = "scripts/hud/hud_bg",
-    x = 0,
-    y = 120,
-  },
-
   -- Hearts meter.
   {
     menu_script = "scripts/hud/hearts",

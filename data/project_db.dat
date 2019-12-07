@@ -738,8 +738,6 @@ file{ path = "sprites/items", license = "CC BY-SA 4.0" }
 file{ path = "sprites/items/bomb.png", author = "Bertram", license = "CC BY-SA 4.0" }
 file{ path = "sprites/items/gem.png", author = "Bertram", license = "CC BY-SA 4.0" }
 file{ path = "sprites/items/heart.png", author = "Bertram", license = "CC BY-SA 4.0" }
-file{ path = "sprites/items/sword.png", author = "Diarandor", license = "CC BY-SA 4.0" }
-file{ path = "sprites/items/tunic.png", author = "Bertram", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/arrow.dat", author = "Olivier Cléro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/menus/arrow.png", author = "Olivier Cléro", license = "CC BY-SA 4.0" }

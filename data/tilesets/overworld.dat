@@ -1189,7 +1189,7 @@ tile_pattern{
   y = { 144, 144, 144, 144 },
   width = 16,
   height = 16,
-  frame_delay = 250,
+  frame_delay = 500,
 }
 
 tile_pattern{
