@@ -20,7 +20,7 @@ local function initialize_dialog_box_features(game)
     dialog = nil,                -- Dialog being displayed or nil.
     first = true,                -- Whether this is the first dialog of a sequence.
     style = nil,                 -- "box" or "empty".
-    vertical_position = "auto",  -- "auto", "top" or "bottom".
+    vertical_position = "bottom",  -- "auto", "top" or "bottom".
     skip_mode = nil,             -- "none", "current", "all" or "unchanged".
     icon_index = nil,            -- Index of the 16x16 icon in hud/dialog_icons.png or nil.
     info = nil,                  -- Parameter passed to start_dialog().

@@ -1,11 +1,11 @@
 animation{
   name = "stopped",
-  src_image = "overworld.png",
+  src_image = "dungeons.png",
   directions = {
-    { x = 144, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 144, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 144, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 144, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 64, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 64, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 64, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 64, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -18,13 +18,12 @@ animation{
 }
 animation{
   name = "walking",
-  src_image = "overworld.png",
+  src_image = "dungeons.png",
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 144, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 144, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 144, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 144, y = 112, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 64, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 64, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 64, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }

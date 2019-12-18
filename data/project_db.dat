@@ -1,7 +1,6 @@
 map{ id = "first_map", description = "First map" }
 map{ id = "house", description = "House" }
 
-tileset{ id = "dungeon", description = "dungeon" }
 tileset{ id = "dungeons", description = "Interiors" }
 tileset{ id = "overworld", description = "overworld" }
 tileset{ id = "trees", description = "Trees" }
@@ -19,11 +18,7 @@ sprite{ id = "animals/worf_brown", description = "Worf Brown" }
 sprite{ id = "blocks/block", description = "block" }
 sprite{ id = "chests/chest", description = "chests/chest" }
 sprite{ id = "destructibles/bush", description = "Bush" }
-sprite{ id = "destructibles/cabbagge_green", description = "Plant Green" }
-sprite{ id = "destructibles/cabbagge_grey", description = "Plant Grey" }
-sprite{ id = "destructibles/cabbagge_red", description = "Plant Red" }
-sprite{ id = "destructibles/cabbagge_violet", description = "Plant Violet" }
-sprite{ id = "destructibles/cabbagge_yellow", description = "Plant Yellow" }
+sprite{ id = "destructibles/cabbagge_green", description = "Plant" }
 sprite{ id = "destructibles/grass_dark_green", description = "Grass center (dark green)" }
 sprite{ id = "destructibles/grass_dark_green_1", description = "Grass 1 (dark green)" }
 sprite{ id = "destructibles/grass_grass_dark_green_3", description = "Grass 3 (dark green)" }
@@ -37,7 +32,6 @@ sprite{ id = "destructibles/grass_green_7", description = "Grass 7 (green)" }
 sprite{ id = "destructibles/grass_square", description = "Square grass" }
 sprite{ id = "destructibles/stone_white", description = "Stone (white)" }
 sprite{ id = "destructibles/vase", description = "Vase" }
-sprite{ id = "doors/door_big_key", description = "Door (big key)" }
 sprite{ id = "doors/door_boss_key", description = "Door (boss key)" }
 sprite{ id = "doors/door_normal", description = "Door (normal)" }
 sprite{ id = "doors/door_small_key", description = "Door (small key)" }
@@ -106,6 +100,7 @@ sprite{ id = "hud/icon_item_2", description = "Item 2 icon" }
 sprite{ id = "hud/icon_pause", description = "Pause icon" }
 sprite{ id = "hud/magic_bar", description = "Magic bar" }
 sprite{ id = "menus/arrow", description = "Arrow" }
+sprite{ id = "menus/item_cursor", description = "menus/item_cursor" }
 sprite{ id = "menus/options_cursor", description = "Options cursor" }
 sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 sprite{ id = "menus/splash", description = "Splash Screen" }
@@ -123,7 +118,6 @@ sprite{ id = "shadows/shadow_big_dynamic", description = "Big dynamic shadow" }
 sprite{ id = "shadows/shadow_small", description = "Small shadow" }
 sprite{ id = "streams/arrow_stream", description = "Conveyor belt" }
 sprite{ id = "switches/switch_1", description = "Switch 1" }
-sprite{ id = "switches/switch_solid", description = "Solid switch" }
 sprite{ id = "teletransporters/destination", description = "Destination of teletransporter" }
 sprite{ id = "teletransporters/teletransporter_blue", description = "Teletransporter (blue)" }
 
@@ -506,10 +500,6 @@ file{ path = "sprites/destructibles", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/bush.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/bush.png", author = "Bertram", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/cabbagge_green.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
-file{ path = "sprites/destructibles/cabbagge_grey.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
-file{ path = "sprites/destructibles/cabbagge_red.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
-file{ path = "sprites/destructibles/cabbagge_violet.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
-file{ path = "sprites/destructibles/cabbagge_yellow.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/grass_dark_green.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/grass_dark_green_1.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/grass_grass_dark_green_3.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
@@ -527,7 +517,6 @@ file{ path = "sprites/destructibles/stone_white.dat", author = "Christopho", lic
 file{ path = "sprites/destructibles/vase.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/doors", license = "CC BY-SA 4.0" }
 file{ path = "sprites/doors/door.png", license = "CC BY-SA 4.0" }
-file{ path = "sprites/doors/door_big_key.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/doors/door_boss_key.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/doors/door_normal.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/doors/door_small_key.dat", author = "Christopho", license = "CC BY-SA 4.0" }
@@ -775,7 +764,6 @@ file{ path = "sprites/streams/arrow_stream.dat", author = "Christopho", license 
 file{ path = "sprites/streams/arrow_stream.png", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/switches", license = "CC BY-SA 4.0" }
 file{ path = "sprites/switches/switch_1.dat", author = "Zane Kukta", license = "CC BY-SA 4.0" }
-file{ path = "sprites/switches/switch_solid.dat", author = "Zane Kukta", license = "CC BY-SA 4.0" }
 file{ path = "sprites/teletransporters", license = "CC BY-SA 4.0" }
 file{ path = "sprites/teletransporters/destination.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/teletransporters/teletransporter.png", author = "Diarandor", license = "CC BY-SA 4.0" }
