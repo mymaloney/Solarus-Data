@@ -12,6 +12,8 @@ and Solarus Developers like you.
 
 Art and Graphical Assets Provided by
 
+P-Tux7
+
 Diarandor
 
 DragondePlatino
