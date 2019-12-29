@@ -1,13 +1,23 @@
 ~ SOLARUS CLASSIC ~
 
 Hey! Thanks for downloading this pack! We'd like to give some special thanks to the people who made this pack possible!
+
 Kamigouso
+
 CopperKatana
+
 Breandan Maloney
+
 Diarandor
+
 Froggy77
+
 Wehkter
+
+Max Mraz
+
 The Solarus Team
+
 and Solarus Developers like you.
 
 Art and Graphical Assets Provided by
