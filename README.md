@@ -38,6 +38,8 @@ This pack is free to use under the Creative Commons Attribution Lisence. This pa
 the assets used or their derivatives to "Solarus Team" or "The Solarus Team" and include a link to the original pack's 
 page on solarus-games.org. Modification is allowed, and encouraged.
 
+Author Data can be found on most files when opened inside the Solarus editor.
+
 ~~
 
 How to Use:
