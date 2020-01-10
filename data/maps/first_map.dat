@@ -3807,15 +3807,6 @@ tile{
   tileset = "overworld",
 }
 
-tile{
-  layer = 0,
-  x = 128,
-  y = 152,
-  width = 16,
-  height = 16,
-  pattern = "42",
-}
-
 destructible{
   layer = 0,
   x = 88,
@@ -3923,6 +3914,7 @@ custom_entity{
   width = 16,
   height = 16,
   direction = 0,
+  sprite = "animals/dog",
   model = "dog",
 }
 
@@ -3999,15 +3991,6 @@ tile{
   tileset = "dungeons",
 }
 
-tile{
-  layer = 1,
-  x = 128,
-  y = 120,
-  width = 16,
-  height = 32,
-  pattern = "43",
-}
-
 separator{
   layer = 1,
   x = 0,
@@ -4022,5 +4005,38 @@ separator{
   y = 0,
   width = 16,
   height = 240,
+}
+
+custom_entity{
+  layer = 1,
+  x = 112,
+  y = 53,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "animals/butterfly_blue",
+  model = "npc/butterfly",
+}
+
+custom_entity{
+  layer = 1,
+  x = 136,
+  y = 61,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "animals/butterfly_blue",
+  model = "npc/butterfly",
+}
+
+custom_entity{
+  layer = 1,
+  x = 120,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "animals/butterfly_blue",
+  model = "npc/butterfly",
 }
 

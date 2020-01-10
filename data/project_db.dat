@@ -1,6 +1,7 @@
 map{ id = "first_map", description = "First map" }
 map{ id = "house", description = "House" }
 
+tileset{ id = "dungeon", description = "stop" }
 tileset{ id = "dungeons", description = "Interiors" }
 tileset{ id = "overworld", description = "overworld" }
 tileset{ id = "trees", description = "Trees" }
@@ -48,6 +49,8 @@ sprite{ id = "enemies/goblin_green", description = "Goblin Green" }
 sprite{ id = "enemies/goblin_green_slingshot", description = "Goblin Slingshot" }
 sprite{ id = "enemies/ice_block", description = "Ice block" }
 sprite{ id = "enemies/iceball", description = "Iceball" }
+sprite{ id = "enemies/minillosaur_egg_fixed", description = "enemies/minillosaur_egg_fixed" }
+sprite{ id = "enemies/minillosaur_egg_thrown", description = "enemies/minillosaur_egg_thrown" }
 sprite{ id = "enemies/pterobat", description = "Pterobat" }
 sprite{ id = "enemies/shamablin_fire", description = "Goblin Shaman Fire" }
 sprite{ id = "enemies/skelfos", description = "Skelfos" }
@@ -65,6 +68,7 @@ sprite{ id = "enemies/soldier", description = "Soldier" }
 sprite{ id = "enemies/soldier_feather", description = "Soldier Feather" }
 sprite{ id = "enemies/soldier_sword", description = "Soldier Sword" }
 sprite{ id = "enemies/spiderskull", description = "Spiderskull" }
+sprite{ id = "enemies/wendigo", description = "enemies/wendigo" }
 sprite{ id = "enemies/wings_evil", description = "Wings evil" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/bomb", description = "Bomb" }
@@ -280,8 +284,11 @@ enemy{ id = "slime_purple", description = "Slime (purple)" }
 enemy{ id = "slime_red", description = "Slime (red)" }
 enemy{ id = "slime_yellow", description = "Slime (yellow)" }
 enemy{ id = "slimy_green", description = "Slimy Green" }
+enemy{ id = "spiderskull", description = "spiderskull" }
+enemy{ id = "wendigo", description = "wendigo" }
 
 entity{ id = "dog", description = "A jumping dog." }
+entity{ id = "npc/butterfly", description = "npc/butterfly" }
 
 language{ id = "en", description = "English" }
 
