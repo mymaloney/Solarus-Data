@@ -1,13 +1,23 @@
 ~ SOLARUS CLASSIC ~
 
 Hey! Thanks for downloading this pack! We'd like to give some special thanks to the people who made this pack possible!
+
 Kamigouso
+
 CopperKatana
+
 Breandan Maloney
+
 Diarandor
+
 Froggy77
+
 Wehkter
+
+Max Mraz
+
 The Solarus Team
+
 and Solarus Developers like you.
 
 Art and Graphical Assets Provided by
@@ -37,6 +47,8 @@ Copyright/Attribution Notice:
 This pack is free to use under the Creative Commons Attribution Lisence. This pack is free to use, but please attribute
 the assets used or their derivatives to "Solarus Team" or "The Solarus Team" and include a link to the original pack's 
 page on solarus-games.org. Modification is allowed, and encouraged.
+
+Author Data can be found on most files when opened inside the Solarus editor.
 
 ~~
 
