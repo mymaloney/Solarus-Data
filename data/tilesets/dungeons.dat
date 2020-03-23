@@ -173,8 +173,8 @@ tile_pattern{
   id = "11",
   ground = "traversable",
   default_layer = 0,
-  x = 96,
-  y = 16,
+  x = 64,
+  y = 0,
   width = 16,
   height = 16,
 }
@@ -263,8 +263,8 @@ tile_pattern{
   id = "14",
   ground = "traversable",
   default_layer = 0,
-  x = 112,
-  y = 16,
+  x = 80,
+  y = 0,
   width = 16,
   height = 16,
 }
@@ -293,11 +293,12 @@ tile_pattern{
   id = "17",
   ground = "wall",
   default_layer = 0,
-  x = { 48, 64, 80 },
-  y = { 16, 16, 16 },
+  x = { 16, 32, 48, 64, 80, 96 },
+  y = { 16, 16, 16, 16, 16, 16 },
   width = 16,
   height = 16,
   frame_delay = 250,
+  mirror_loop = true,
 }
 
 tile_pattern{
@@ -906,8 +907,8 @@ tile_pattern{
   id = "3",
   ground = "wall",
   default_layer = 0,
-  x = 0,
-  y = 16,
+  x = 112,
+  y = 0,
   width = 16,
   height = 16,
 }

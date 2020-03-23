@@ -1,0 +1,204 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 160,
+  height = 144,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeons",
+  music = "Joshua",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 8,
+  width = 144,
+  height = 96,
+  pattern = "49",
+  tileset = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "6",
+  tileset = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "10_11",
+  tileset = "dungeons",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 96,
+  pattern = "10_16",
+  tileset = "dungeons",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "10_13",
+  tileset = "dungeons",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "10_12",
+  tileset = "dungeons",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 0,
+  width = 128,
+  height = 16,
+  pattern = "10_15",
+  tileset = "dungeons",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 16,
+  width = 16,
+  height = 96,
+  pattern = "10_14",
+  tileset = "dungeons",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "10_10",
+  tileset = "dungeons",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 16,
+  width = 32,
+  height = 80,
+  pattern = "6",
+  tileset = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 16,
+  width = 32,
+  height = 80,
+  pattern = "6",
+  tileset = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 80,
+  width = 48,
+  height = 16,
+  pattern = "6",
+  tileset = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 16,
+  width = 48,
+  height = 48,
+  pattern = "6",
+  tileset = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 104,
+  width = 128,
+  height = 16,
+  pattern = "10_17",
+  tileset = "dungeons",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "13_4",
+  tileset = "dungeons",
+}
+
+teletransporter{
+  layer = 0,
+  x = 72,
+  y = 104,
+  width = 16,
+  height = 16,
+  destination_map = "first_map",
+  destination = "destination_2",
+}
+
+destination{
+  name = "spider",
+  layer = 0,
+  x = 80,
+  y = 101,
+  direction = 1,
+}
+
+chest{
+  layer = 0,
+  x = 80,
+  y = 21,
+  treasure_name = "gem",
+  sprite = "chests/chest",
+}
+
+enemy{
+  layer = 0,
+  x = 80,
+  y = 53,
+  direction = 3,
+  breed = "spiderskull",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "12_2",
+}
+

@@ -26,3 +26,11 @@ far away places!
 ]],
 }
 
+dialog{
+  id = "spider",
+  text = [[
+       -Beware!-            
+Lair of the Spiderskull
+]],
+}
+

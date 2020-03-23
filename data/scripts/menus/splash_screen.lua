@@ -6,7 +6,7 @@ local splash_screen = {}
 splash_screen.surface = sol.surface.create(160, 144)
 local surface = splash_screen.surface
 
-local splash_sprite = sol.sprite.create("menus/splash")
+local splash_sprite = sol.sprite.create("menus/splash - Copy")
 splash_sprite:set_animation("title")
 
 local timer = nil
