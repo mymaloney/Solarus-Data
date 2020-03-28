@@ -127,8 +127,10 @@ sprite{ id = "switches/switch_1", description = "Switch 1" }
 sprite{ id = "teletransporters/destination", description = "Destination of teletransporter" }
 sprite{ id = "teletransporters/teletransporter_blue", description = "Teletransporter (blue)" }
 
-music{ id = "Can the Circle Be Unbroken", description = "Can the Circle Be Unbroken" }
+music{ id = "Bull's Theme", description = "The Daring Young Man on the Flying Trapeze" }
 music{ id = "Joshua", description = "Joshua Fought the Battle of Jericho" }
+music{ id = "Lonesome", description = "Lonesome Blues" }
+music{ id = "circle", description = "Will the Circle Be Unbroken" }
 music{ id = "eduardo/Silent Princess", description = "Silent Princess (DELETE THIS -NINTENDO)" }
 music{ id = "eduardo/boss", description = "Boss" }
 music{ id = "eduardo/cave", description = "Cave" }
