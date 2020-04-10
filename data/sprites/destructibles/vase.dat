@@ -1,8 +1,8 @@
 animation{
-  name = "stopped",
+  name = "on_ground",
   src_image = "dungeons.png",
   directions = {
-    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 16 },
   },
 }
 animation{
@@ -14,10 +14,10 @@ animation{
   },
 }
 animation{
-  name = "on_ground",
+  name = "stopped",
   src_image = "dungeons.png",
   directions = {
-    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 9 },
   },
 }
 animation{
@@ -26,6 +26,6 @@ animation{
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 9 },
   },
 }

@@ -17,6 +17,7 @@ sprite{ id = "animals/dog", description = "A dog wagging its tail." }
 sprite{ id = "animals/meow_orange", description = "Meow orange" }
 sprite{ id = "animals/mouse", description = "Mouse" }
 sprite{ id = "animals/worf_brown", description = "Worf Brown" }
+sprite{ id = "bee", description = "bee" }
 sprite{ id = "blocks/block", description = "block" }
 sprite{ id = "chests/chest", description = "chests/chest" }
 sprite{ id = "destructibles/bush", description = "Bush" }
@@ -294,6 +295,7 @@ enemy{ id = "spiderskull", description = "spiderskull" }
 enemy{ id = "wendigo", description = "wendigo" }
 
 entity{ id = "dog", description = "A jumping dog." }
+entity{ id = "npc/bee", description = "bee" }
 entity{ id = "npc/butterfly", description = "npc/butterfly" }
 
 language{ id = "en", description = "English" }
