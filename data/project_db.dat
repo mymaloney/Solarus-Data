@@ -72,6 +72,7 @@ sprite{ id = "enemies/spiderskull", description = "Spiderskull" }
 sprite{ id = "enemies/wendigo", description = "enemies/wendigo" }
 sprite{ id = "enemies/wings_evil", description = "Wings evil" }
 sprite{ id = "entities/arrow", description = "Arrow" }
+sprite{ id = "entities/bee", description = "entities/bee" }
 sprite{ id = "entities/bomb", description = "Bomb" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
@@ -294,6 +295,7 @@ enemy{ id = "spiderskull", description = "spiderskull" }
 enemy{ id = "wendigo", description = "wendigo" }
 
 entity{ id = "dog", description = "A jumping dog." }
+entity{ id = "npc/bee", description = "npc/bee" }
 entity{ id = "npc/butterfly", description = "npc/butterfly" }
 
 language{ id = "en", description = "English" }
